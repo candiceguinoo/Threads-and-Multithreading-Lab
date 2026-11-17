@@ -55,6 +55,7 @@ The program successfully displayed numbers 1 to 5, followed by "Program complete
    The main program does not wait for the thread and may continue while the thread is still running.
 
 ### Task 2 – Multiple Threads
+---
 
 **Description:**
 
@@ -119,6 +120,7 @@ Both threads completed.
    Sequential execution means tasks run one after another. Concurrent execution means multiple tasks make progress during the same period.
 
 ### Task 3 – Thread Synchronization Using `join()`
+---
 
 **Description:**
 
@@ -170,6 +172,7 @@ Download completed.
    It is necessary when threads need to coordinate their tasks or access shared data to avoid conflicts.
 
 ### Task 4 – Managing Shared Resources Using Thread Locks
+---
 
 **Description:**
 
@@ -268,3 +271,7 @@ Restored the `with lock:` statement after the experiment.
 - Demonstrate concurrent execution.
 - Explain thread coordination.
 - Apply locks to protect shared resources.
+
+## Conclusion
+
+In this laboratory, I learned how to create and manage threads using Python. I was able to understand how multiple threads execute concurrently, how `join()` helps control thread execution, and how locks protect shared resources. I also observed that removing synchronization does not always produce an incorrect result, but race conditions can still happen. Overall, this activity helped me understand the importance of multithreading and thread synchronization in programming.
